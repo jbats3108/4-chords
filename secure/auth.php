@@ -30,8 +30,6 @@ $response = $client->request('POST', 'api/token', $post_data);
 
 $data = (string) $response->getBody();
 
-file_put_contents('data.json', $data);
-
 $tokens = json_decode($data, true);
 
 $jwt = $tokens['access_token'];
