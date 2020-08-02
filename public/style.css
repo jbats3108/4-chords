@@ -1,0 +1,50 @@
+* {
+    font-family: 'Red Rose', cursive;
+}
+
+header {
+    margin-top: 1em;
+}
+
+h1 {
+    color: #3C096C;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: #10002B;
+}
+
+#toggle-disclaimer {
+    text-align: center;
+}
+
+#disclaimer-text {
+    display: none;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid #10002B;
+    border-collapse: collapse;
+    color: #10002B;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #E0AAFF;
+}
+
+tr:nth-child(odd) {
+    background-color: #9D4EDD;
+}
+
+
+th {
+    background-color: #7B2CBF;
+    font-weight: 700;
+}
