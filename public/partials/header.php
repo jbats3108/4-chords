@@ -40,3 +40,6 @@
                 <th>Artist</th>
                 <th>Search</th>
             </tr>
+
+            <?
+?>
